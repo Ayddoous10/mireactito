@@ -1,0 +1,77 @@
+/* General Styles */
+.app-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #fefefe;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background-color: #ffcc80;
+  padding: 20px 10px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+}
+
+/* Main Content */
+.main-content {
+  padding: 15px;
+}
+
+/* Sections */
+.carousel-section,
+.about-us,
+.events {
+  margin-bottom: 20px;
+}
+
+.carousel-section h2,
+.about-us h2,
+.events h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ff9800;
+}
+
+.about-us p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.events li {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffcc80;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.8rem;
+}

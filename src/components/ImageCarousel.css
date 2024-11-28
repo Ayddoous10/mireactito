@@ -1,0 +1,24 @@
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel img {
+  scroll-snap-align: start;
+  width: 90%;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.carousel img:hover {
+  transform: scale(1.05);
+}
