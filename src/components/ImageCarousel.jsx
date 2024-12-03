@@ -5,9 +5,9 @@ function ImageCarousel() {
   return (
     <div className="carousel-container">
       <div className="carousel">
-        <img src="./images/salon1.png" alt="Evento 1" />
-        <img src="./images/salon2.png" alt="Evento 2" />
-        <img src="./images/salon3.png" alt="Evento 3" />
+        <img src="./images/eventoInfantil.jpeg" alt="Evento Infantil" />
+        <img src="./images/evento familiar.jpeg" alt="Evento 2" />
+        <img src="./images/bocinas.jpeg" alt="Evento 3" />
       </div>
     </div>
   );
